@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register/Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <!-- 整体布局 -->
+    <div class="container right-panel-active">
+
+        <!-- 注册框 -->
+        <!-- <div class="container_from container_signup">
+            <form action="#" class="from" id="from1">
+                <h2 class="form_title">Register</h2>
+                <input type="number" placeholder="Student ID" class="input" pattern="^1[0-9]{10}$">
+                <input type="text" placeholder="Name" class="input">
+				<input type="text" placeholder="Age" maxlength="2" class="input">
+				<input type="text" placeholder="Major" class="input">
+				<label for="avatar">ID card Photo:</label>
+				<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" class="input">
+				<label for="CreatTime">Current Time:</label>
+                <input type="datetime-local" id="CreatTime" name="CreatTime" min="2020-01-01T00:00" max="2050-01-01T00:00" class="input">
+				<input type="text" placeholder="Email" class="input">
+				<input type="tel" placeholder="Phone nmber" class="input">
+				<a href="logPro.html" class="link">I'm a Professor</a>
+				<a href=# class="link">have an account</a>
+                <button class="btn">Register</button>
+            </form>
+        </div> -->
+
+        <!-- 登录框 -->
+        <div class="container_from container_signin">
+            <form action="#" class="from" id="from2">
+                <h2 class="form_title">Login</h2>
+                <input type="tel" placeholder="Student ID" class="input">
+                <input type="password" placeholder="Password" class="input">
+                <div>
+                    <span>remember password</span><input type="checkbox" name="rup" id="rup" />
+                    <span>automatic login</span><input type="checkbox" name="autoLogin" />
+                </div>
+                <a href="#" class="link">forget password?</a>
+				<a href="logPro.html" class="link">I'm a Professor</a>
+				<a href="stuReg.html" class="link">Create an account</a>
+                <button class="btn">Login</button>
+            </form>
+        </div>
+
+        <!--控制注册与登录移动-->
+        <!-- <div class="container_overlay">
+            <div class="overlay">
+                <div class="overlay_panel overlay_left">
+                    <button class="btn" id="signin">Have an Account</button>
+                </div>
+                <div class="overlay_panel overlay_right">
+                    <button class="btn" id="signup">Click to Register!</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
