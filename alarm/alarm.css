@@ -1,0 +1,55 @@
+.header .logo{
+	font-size: larger;
+	background-color: #808080;
+	color:#fff;
+	padding:10px;
+	text-align: center;
+}
+.header .nav{
+	background-color: #DD524D;
+	overflow: auto;
+}
+.header .nav a.index{
+	background-color: #007AFF;
+}
+.header .nav a{
+	background-color: #DD524D;
+	font-size:17px;
+	color:#fff;
+	padding:10px 20px 10px 20px;
+	float:left;
+	text-decoration: none;
+}
+.header .nav a:hover{
+	background-color: #007AFF;
+}
+.main ul{
+	margin: 0;
+	padding: 0;
+}
+.main ul li{
+	cursor: pointer;
+	position: relative;
+	padding: 20px 8px 20px 40px;
+	background: #eee;
+	font-size: 18px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.main ul li:hover{
+	background-color: #4CD964;
+}
+
+.alarm {
+    position: absolute;
+	top: 0;
+    right: 0;
+    padding: 20px 30px 20px 30px;
+}
+
+.alarm:hover {
+	background-color: #DD524D;
+	color: #fff;
+}
