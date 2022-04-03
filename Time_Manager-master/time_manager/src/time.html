@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Application Management Tool</title>
+                <meta charset="utf-8" />
+                <link href="time.css" type="text/css" rel="stylesheet" />
+                <script src="script.js"></script>
+        </head>
+           
+            <body background="6.jpg" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;" onload="OnLoad()">
+           
+        <div class="box" >
+               
+                        <ul> 
+                                <li class="dropdown">
+                                    <a id="a" href="javascript:void(0)" class="dropbtn" onclick="showList(this)">Tasks List</a>
+                                    <div class="dropdown-content" id="dropdown-a">
+                                        <a href="#">Reference Letter</a>
+                                        <a href="#">Meeting</a>
+                                        <a href="#">Personal Statment</a>
+                                        <a href="#">Other Materials</a>
+                                    </div>
+                      
+                               
+                                <li><span class="" style="float:right"><a href="javascript:void(0) "onclick="jump()">Add Tasks</a></span></li>
+                                <li><span class="" style="float:right"><a href="javascript:void(0) "onclick="switchbg()">Change Background</a></span></li>
+                        </ul> 
+        </div>
+
+        <div class="subject">
+                <p style="color: white">
+                    <h1>Tasks Need To Be Done:</h1>
+                    <br/>
+                      
+                       <div id="div1"></div>
+                </p>
+        </div>
+
+        </body>
+</html>

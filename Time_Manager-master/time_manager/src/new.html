@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Tasks</title>
+        <meta charset="utf-8">
+        <link href="new.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="new.js"></script>
+    </head>
+    <body background="new6.jpg"style=" background-repeat:no-repeat ;background-size:100% 100%;
+    background-attachment: fixed;">
+    
+        <div class="head">
+            <ul>
+                    <li><span class="" ><a href="javascript:void(0) "onclick="return_jump()">Return</a></span></li>
+                    <li><span class="" ><a href="javascript:void(0) ">Add Tasks</a></span></li>
+                    <li><span class="" ><a href="javascript:void(0) "onclick="success()">Submit</a></span></li>
+           
+            </ul>    
+        </div>
+        <div id="contain4">
+        <form id="form1" method="post">
+              <input  id="input_title" type="text" placeholder="Please input the taks name" class="in"/>
+        </form>
+        </div>
+      
+        <div id="contain1">
+            <form action="demo_form.php" method="get">
+                <h4> Please input the Date：</h4>
+  
+                <input type="datetime-local" id="date1" class="date" />
+            </form> 
+        </div>
+
+        <div id="contain2">
+        <form action="SelectServlet" method="post">
+            <table>
+             <tr height="15">
+            <td align=right >Search According to Types:</td>
+            <td align=left >
+            <select name="STATUS" id="STATUS" style="width:80%" onchange="show()" class="select">
+            <option value="0">ALL Tasks</option>
+            <option value="1" >Reference letter</option>
+            <option value="2">Meeting</option>
+            <option value="3">Personal Statment</option>
+            <option value="4">Other Materials</option>
+               </select>
+            </td>
+            <td>
+            </td>
+        </tr>
+        </table>
+        </form>
+        </div>
+
+        <div id="contain3">
+            <form action="SelectServlet" method="post">
+                <table>
+                    <tr height="15">
+                        <td align=right>Alert Type: </td>
+                        <td align=left>
+                            <select name="STATUS" id="STATUS" style="width:80%" onchange="show()" class="select">
+                                <option value="0" style="background-color:rgb(220, 220, 220,0.1)">Automatic</option>
+                                <option value="1">Zoom</option>
+                                <option value="2">evaporation</option>
+                                <option value="3">Fall</option>
+                                <option value="4">Pixelate</option>
+                                <option value="5">Fragmentation</option>
+                                <option value="6">Burn</option>
+                                <option value="7">Shock</option>
+                            </select>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            </div>
+
+        <div id="contain5">
+            <p>Repeat Alert：
+                <label><input type="radio"name="grade" value="1" checked="checked"/>No repeat</label>
+                <label><input type="radio"name="grade" value="2" checked="checked"/>Every Day</label>
+                <label><input type="radio"name="grade" value="3" checked="checked"/>Every Week</label>
+                <label><input type="radio"name="grade" value="4" checked="checked"/>Every Month</label>
+                <label><input type="radio"name="grade" value="5" checked="checked"/>Every Year</label>
+            </p>
+        </div>
+       
+    </body>
+</html>

@@ -1,0 +1,78 @@
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:(0,0,0,0.1);
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display:inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     /* line-height: 30px;设置垂直居中 */
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(220,220,220,0.2);
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(150,150,150,0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    color: white;
+    background-color: #1f75cf;
+}
+.show {
+    display: block;
+}
+.ui_button{
+/* color: rgb(0, 0, 0); */
+display:inline-block;
+background-color:rgb(220,220,220,0.2);
+font-size: 20px;
+outline: none;
+}
+.box{
+    border:0px solid #000000;
+    width:800px;
+    margin:auto;
+}
+.box ul li{border:0px solid #333333;
+    background-color:(0,0,0,0.1);
+    color:#000000;/*width:60px;*/
+    text-align:center;
+/*float:left;*/
+    margin-right:5px; 
+    list-style:none
+}
+        
+.box {*text-align:center;}
+ul {display:table;margin-left:auto;margin-right:auto;}
+ul li{float:left;*float:none;*display:inline;*zoom:1;}
+
+.subject{
+
+color: White;
+font-size: large;
+
+}
+
